@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".uploadpdf_activity">
+
+
+    <ImageView
+        android:id="@+id/firebase"
+        android:layout_width="wrap_content"
+        android:layout_height="146dp"
+        android:layout_gravity="center"
+        android:background="@drawable/preview5" />
+
+    <TextView
+        android:id="@+id/firebasetext"
+        android:layout_width="306dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="50dip"
+        android:background="#558B2F"
+        android:fontFamily="@font/baloo_chettan"
+        android:gravity="center"
+        android:text="Food  Articles"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editpdf"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:background="#CCFF90"
+        android:fontFamily="@font/baloo_chettan"
+        android:hint="Name of article"
+        android:paddingLeft="40dip"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+        android:background="#CCFF90"
+        android:fontFamily="@font/baloo_chettan"
+        android:text="Upload food article"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:text="Upload food articles" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+
+        android:background="#CCFF90"
+        android:fontFamily="@font/baloo_chettan"
+        android:text="View food articles"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

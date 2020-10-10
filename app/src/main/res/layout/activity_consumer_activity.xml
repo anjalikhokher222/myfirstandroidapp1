@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".products_activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dip"
+        android:padding="10dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#283593"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:id="@+id/bookthumb"
+                android:layout_width="242dp"
+                android:layout_height="139dp"
+
+                android:background="@drawable/preview5"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/txttit"
+                android:layout_width="343dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="15dip"
+                android:background="#FF9490"
+                android:gravity="center"
+                android:text="The Consumer Protection Act, 1986, gives all consumers the following right"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtcat"
+                android:layout_width="392dp"
+                android:layout_height="474dp"
+                android:layout_marginTop="10dip"
+
+                android:background="#283593"
+                android:padding="8dip"
+                android:text="(a)  the right to be protected against marketing of goods and services which are hazardous to life and property;
+(b)  the right to be informed about the quality, quantity, potency, purity, standard and price of goods or services, as the case may be, so as to protect the consumer against unfair trade practices.\n
+(c)   the right to be assured, wherever possible, access to a variety of goods and services at competitive prices;\n
+(d)  the right to be heard and to be assured that consumer's interests will receive due consideration at appropriate forums;\n
+(e)   the right to seek redressal against unfair trade practices or restrictive trade practices or unscrupulous exploitation of con­sumers; and
+(f)  the right to consumer education.\n\n
+
+The law provides for redress of consumer complaints arising out of violation of these rights, through consumer forums constituted at the district, state and the national level. (For more details, see the website of the National Consumer Disputes Redressal commission: www. consumercom.nic.in"
+
+
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

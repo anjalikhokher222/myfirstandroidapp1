@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="60dip"
+        android:layout_marginRight="40dip"
+        android:layout_marginBottom="30dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="255dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="20dip"
+            android:layout_marginRight="30dip"
+            android:layout_marginBottom="30dip"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center|center_vertical"
+            android:includeFontPadding="true"
+            android:scrollbarSize="@android:dimen/notification_large_icon_height"
+            android:shadowColor="#00851919"
+            android:text="Food Detective"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFEA00"
+            android:textColorHint="#00010500"
+            android:textColorLink="#FF9800"
+            android:textSize="36sp"
+            android:textStyle="normal"
+            app:autoSizeMaxTextSize="30dip" />
+
+
+        <ImageView
+
+            android:id="@+id/bookthum"
+            android:layout_width="268dp"
+            android:layout_height="153dp"
+
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="40dip"
+            android:background="@drawable/preview5"
+            android:scaleType="centerCrop" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="90dip"
+            android:layout_marginTop="80dip"
+            android:layout_marginRight="90dip"
+            android:layout_marginBottom="10dip"
+            android:layout_weight="1"
+            android:background="#303F9F"
+            android:fontFamily="@font/baloo_bhaina"
+            android:gravity="center"
+            android:paddingLeft="30dip"
+            android:paddingTop="1dip"
+            android:paddingRight="30dip"
+            android:paddingBottom="2dip"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="#FFFDE7"
+            android:textColorHint="#FFC107"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dip"
+            android:layout_marginTop="80dip"
+            android:layout_marginRight="100dip"
+            android:layout_marginBottom="70dip"
+            android:layout_weight="1"
+            android:background="#303F9F"
+            android:fontFamily="@font/baloo_bhaina"
+            android:gravity="center|center_vertical"
+            android:text="Register"
+            android:textColor="#F9FBE7"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
